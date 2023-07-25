@@ -1,0 +1,23 @@
+{
+  "name": "chatgptdemo",
+  "version": "1.0.0",
+  "description": "A web service with chat gpt api",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bing",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongodb": "^5.7.0",
+    "mysql": "^2.18.1",
+    "openai": "^3.3.0"
+  }
+}
